@@ -29,9 +29,9 @@ function getUniqueRandomNumber(listaNumeriUsati, min, max) {
    let numeroValido = false;
    let numeroCasualeCreato;
 
-    while( numeroValido == false ) {
+    while( numeroValido == false ) { // identico a !numeroValido
         numeroCasualeCreato = getNumeroCasuale( min, max);
-        if (!( listaNumeriUsati.includes(numeroCasualeCreato))) {
+        if (listaNumeriUsati.includes(numeroCasualeCreato) == false) { //identico a !listaNumeriUsati.includes(numeroCasualeCreato)
             numeroValido = true;
         }
     }
