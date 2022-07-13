@@ -1,0 +1,1 @@
+# lc-242-arrow_function_this
