@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px;
+    align-content: flex-start;
+}
+
+
+.square {
+    border: solid 3px #fff;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+}
+
+.clicked {
+    background-color: green;
+}

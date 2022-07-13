@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgray;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px;
+    align-content: flex-start;
+}
+
+
+.square {
+    border: solid 3px #000;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clicked .square-number {
+    display: block;
+}
+
+.square-number {
+    display: none;
+}
+
+.clicked.pari {
+    background-color: yellow;
+}
+
+.clicked.dispari {
+    background-color: blue;
+}
