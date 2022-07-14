@@ -33,7 +33,7 @@ for (let i = 0; i < 64; i++) {
 function getNumeroCasuale(min, max) {
     return Math.floor(Math.random() * ( max - min + 1)) + min;
 }
-
+ 
 //genera un numero casuale che non sia compreso nella lista dei numeri usati e compreso tra min e max
 function getUniqueRandomNumber(listaNumeriUsati, min, max) {
 
